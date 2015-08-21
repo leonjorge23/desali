@@ -29,58 +29,132 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="header">
+	<!--=== Header ===-->
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Start Bootstrap</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-				<li>
-					<a href="#">About</a>
+		<!-- Logo -->
+		<a class="logo" href="index.html">
+			<img src="images/logo.png" alt="Logo">
+		</a>
+		<!-- End Logo -->
+		<!-- Toggle get grouped for better mobile display -->
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="fa fa-bars"></span>
+		</button>
+		<!-- End Toggle -->
+	</div><!--/end container-->
+	<!--=== End Header ===-->
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+		<div class="container">
+			<ul class="nav nav-pills navbar-right">
+				<li class="dropdown active">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHAT IS DESAL</a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="#">DESAL HISTORY</a></li>
+						<li><a target="_blank" href="#">DESAL PROCESS</a></li>
+						<li><a target="_blank" href="#">ENVIRONMENT IMPACT</a></li>
+						<li><a target="_blank" href="#">ENERGY USE</a></li>
+					</ul>
 				</li>
-				<li>
-					<a href="#">Services</a>
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEST BASIN DESAL</a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="#">DESAL HISTORY</a></li>
+						<li><a target="_blank" href="#">DESAL PROCESS</a></li>
+						<li><a target="_blank" href="#">ENVIRONMENT IMPACT</a></li>
+						<li><a target="_blank" href="#">ENERGY USE</a></li>
+					</ul>
+	      </li>
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">EIR/CEQA</a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="#">DESAL HISTORY</a></li>
+						<li><a target="_blank" href="#">DESAL PROCESS</a></li>
+						<li><a target="_blank" href="#">ENVIRONMENT IMPACT</a></li>
+						<li><a target="_blank" href="#">ENERGY USE</a></li>
+					</ul>
 				</li>
-				<li>
-					<a href="#">Contact</a>
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">FAQ'S</a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="#">DESAL HISTORY</a></li>
+						<li><a target="_blank" href="#">DESAL PROCESS</a></li>
+						<li><a target="_blank" href="#">ENVIRONMENT IMPACT</a></li>
+						<li><a target="_blank" href="#">ENERGY USE</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">WHAT'S NEW</a>
+					<ul class="dropdown-menu">
+						<li><a target="_blank" href="#">DESAL HISTORY</a></li>
+						<li><a target="_blank" href="#">DESAL PROCESS</a></li>
+						<li><a target="_blank" href="#">ENVIRONMENT IMPACT</a></li>
+						<li><a target="_blank" href="#">ENERGY USE</a></li>
+					</ul>
 				</li>
 			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container -->
-</nav>
-
-<!-- Page Content -->
-<div class="container">
-
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<h1>A Bootstrap Starter Template</h1>
-			<p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-			<ul class="list-unstyled">
-				<li>Bootstrap v3.3.1</li>
-				<li>jQuery v1.11.1</li>
-			</ul>
-		</div>
-	</div>
-	<!-- /.row -->
-
+		</div><!--/end container-->
+	</div><!--/navbar-collapse-->
 </div>
-<!-- /.container -->
+<!-- Page Content -->
 
+<!--=== Slider ===-->
+<div class="container">
+	<div class="ms-layers-template">
+		<img src="images/img2.jpg" alt="">
+	</div>
+</div>
+<!--=== End Slider ===-->
+
+<!--=== CTAs ===-->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">ENVIRONMENTAL STEWARDSHIP</div>
+		<div class="col-sm-3">TRUE COST OF DESALINATION</div>
+		<div class="col-sm-3">DESAL DEBATE</div>
+		<div class="col-sm-3">GET INVOLVED</div>
+
+	</div>
+</div>
+<!--=== End of CTAs ===-->
+
+<!--=== Footer ===-->
+<div class="container">
+ <ul>
+	 <li><a href="#">PRESS RELEASES</a></li>
+	 <li><a href="#">SITE MAP</a></li>
+	 <li>
+		 <a href="#">WHAT IS DESAL</a>
+		 <a href="#">DESAL HISTORY</a>
+	 </li>
+	 <li>
+		 <a href="#">WEST BASIN DESAL</a>
+		 <a href="#">WB STEPWISE APPROACH</a>
+	 </li>
+	 <li><a href="#">EIR/CEQA</a></li>
+	 <li><a href="#">FAQ'S</a></li>
+	 <li><a href="#">WHAT'S NEW</a></li>
+ </ul>
+</div>
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="images/logo.png" alt="Desal icon" width="40px" height="40px">
+			 @2015 West Basin Municipal Water District
+		</div>
+		<div class="col-sm-6">
+			<address><span>17140 South Avalon Blvd Suite 210 Carson, CA 9046-1296</span> <span>Phone: (310) 217-2411</span><span>Fax:(310)217-2414</span></address>
+		</div>
+	</div>
+</div>
+<!--=== End Copyright ===-->
 <!-- jQuery Version 1.11.1 -->
-<script src="js/jquery.js"></script>
-
+<script src="js/jquery-1.11.3.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
