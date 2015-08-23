@@ -1,0 +1,9 @@
+.ie-legacy .dropdown-menu>li>a {
+    padding: 0px 20px;
+    font-size: 13px;
+    line-height: 28px;
+}
+.ie-legacy .dropdown-menu>li>a:focus, .ie-legacy .dropdown-menu>li>a:hover {
+    color: #fff;
+    background-color: #104676;
+}
